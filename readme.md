@@ -37,13 +37,15 @@
 
 ### TODO
 
-- Support for more languages.
+- Test all languages and report issues.
 
 ## Contributing
 
 > Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
 
-Modify `template.xml` using Rosé Pine variables, then build variants:
+- The template.xml is a modified version of the default npp theme located at `%AppData%\Notepad++\stylers.xml`. Use it as a reference when updating/adding languages.
+- Modify `template.xml` using Rosé Pine variables
+- Build variants and copy themes to npp themes location to test it.
 
 <!-- #rose-pine-build -->
 
