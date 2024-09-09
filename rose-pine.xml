@@ -1498,5 +1498,11 @@
         <WidgetStyle name="Document map" styleID="0" fgColor="191724" bgColor="191724" />
         <WidgetStyle name="EOL custom color" styleID="0" fgColor="6e6a86" />
         <WidgetStyle name="Non-printing characters custom color" styleID="0" fgColor="ebbcba" />
+        <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="403d52" />
+        <WidgetStyle name="Multi-edit carets color" styleID="0" fgColor="c4a7e7" />
+        <WidgetStyle name="Change History modified" styleID="0" fgColor="ebbcba" bgColor="191724" />
+        <WidgetStyle name="Change History revert modified" styleID="0" fgColor="9ccfd8" bgColor="191724" />
+        <WidgetStyle name="Change History revert origin" styleID="0" fgColor="31748f" bgColor="191724" />
+        <WidgetStyle name="Change History saved" styleID="0" fgColor="c4a7e7" bgColor="191724" />
     </GlobalStyles>
 </NotepadPlus>
