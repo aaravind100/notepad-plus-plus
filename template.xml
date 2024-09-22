@@ -1500,9 +1500,9 @@
         <WidgetStyle name="Non-printing characters custom color" styleID="0" fgColor="$rose" />
         <WidgetStyle name="Multi-selected text color" styleID="0" bgColor="$highlightMed" />
         <WidgetStyle name="Multi-edit carets color" styleID="0" fgColor="$iris" />
-        <WidgetStyle name="Change History modified" styleID="0" fgColor="$rose" bgColor="$base" />
-        <WidgetStyle name="Change History revert modified" styleID="0" fgColor="$foam" bgColor="$base" />
-        <WidgetStyle name="Change History revert origin" styleID="0" fgColor="$pine" bgColor="$base" />
-        <WidgetStyle name="Change History saved" styleID="0" fgColor="$iris" bgColor="$base" />
+        <WidgetStyle name="Change History modified" styleID="0" fgColor="$gold" bgColor="$gold" />
+        <WidgetStyle name="Change History revert modified" styleID="0" fgColor="$iris" bgColor="$iris" />
+        <WidgetStyle name="Change History revert origin" styleID="0" fgColor="$foam" bgColor="$foam" />
+        <WidgetStyle name="Change History saved" styleID="0" fgColor="$pine" bgColor="$pine" />
     </GlobalStyles>
 </NotepadPlus>
