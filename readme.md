@@ -13,9 +13,9 @@
 
 ## Usage
 
-1. Download the xml for the varient and copy it to %AppData%\Notepad++\themes in windows.
+1. Download the xml for the variant and copy it to %AppData%\Notepad++\themes in windows.
 2. Restart Notepad++ if it is open.
-3. Select the varient from Settings > Style Configurator.
+3. Select the variant from Settings > Style Configurator.
 
 ## Gallery
 
