@@ -21,15 +21,15 @@
 
 ### Rosé Pine
 
-![Rosé Pine with Notepad++](https://user-images.githubusercontent.com/98406957/227729258-9051056f-a542-4a4f-bbaa-797bbfe32705.png)
+![Rosé Pine with Notepad++](https://github.com/user-attachments/assets/a0f4c69f-5e49-4424-86af-81a7c9c326f3)
 
 ### Rosé Pine Moon
 
-![Rosé Pine Moon with Notepad++](https://user-images.githubusercontent.com/98406957/227729342-79cd49a0-36c6-47c5-848f-ea0a62af233c.png)
+![Rosé Pine Moon with Notepad++](https://github.com/user-attachments/assets/64492acb-f39f-42b2-85dd-14b0033f0ccd)
 
 ### Rosé Pine Dawn
 
-![Rosé Pine Dawn with Notepad++](https://user-images.githubusercontent.com/98406957/227729414-b3ad10b3-f15a-4fb6-bc03-d85f264afbe3.png)
+![Rosé Pine Dawn with Notepad++](https://github.com/user-attachments/assets/0fc7b100-847c-4de0-9e72-1bb145157893)
 
 ## Contributing
 
