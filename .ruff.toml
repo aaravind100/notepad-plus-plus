@@ -1,0 +1,11 @@
+target-version = "py314"
+line-length = 88
+indent-width = 4
+
+[lint]
+select = ["A", "B", "C", "D", "E", "F", "I", "S", "W", "UP", "RUF"]
+ignore = ["D203", "D213"]
+
+[format]
+quote-style = "double"
+indent-style = "space"
