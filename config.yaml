@@ -1,0 +1,779 @@
+styles:
+- bgColor: $base
+  fgColor: $text
+  names:
+  - ADDRESSFIELD_UNKNOWN
+  - ANSI COLOR BLACK
+  - ANY OTHER TEXT
+  - ASM
+  - ASP SYMBOL
+  - ATTRIBUTE UNKNOWN
+  - BYTECOUNT_WRONG
+  - CAPITAL
+  - CHECKSUM_WRONG
+  - CLASS VAR
+  - COMOBJ
+  - DATA
+  - DATA_EMPTY
+  - DATA_EVEN
+  - DATA_ODD
+  - DATA_UNKNOWN
+  - DEFAULT
+  - DEFAULT STYLE
+  - DEFAULT TEXT STYLE
+  - DIVISION BETWEEN LABEL AND OPCODE
+  - DIVISION BETWEEN OPCODE AND OPERANDS
+  - DIVISION OF OPERANDS
+  - DIVSION OF LEADING WHITESPACE IN LINE
+  - DSC VALUE
+  - Default Style
+  - ENTITY
+  - ENVIRONMENT VARIABLE
+  - EXPAND
+  - GARBAGE
+  - Global override
+  - IDENTIFIER
+  - IDENTIFIERS
+  - IDEOL
+  - IMPORT
+  - INSTANCE
+  - INSTANCE VAR
+  - LINENUM
+  - MODULE
+  - Name
+  - POD
+  - RECTYPE_UNKNOWN
+  - REFERENCE (TO A LABEL)
+  - REGEX
+  - SCRIPT TYPE
+  - SGML BLOCK DEFAULT
+  - SGML DEFAULT
+  - STRING EOL NC
+  - STRING EOL OPEN
+  - STRING VERBATIM EOL
+  - SUBSECTION
+  - SYSTEM TABLE
+  - TAG UNKNOWN
+  - TAGNAME
+  - UNKNOWN IDENTIFIER
+  - UNKNOWN OPCODE
+  - UNKNOWN PSEUDOCLASS
+  - USER
+  - USER KEYWORDS
+  - USER KEYWORDS 1
+  - USER KEYWORDS 2
+  - USER KEYWORDS 3
+  - USER KEYWORDS 4
+  - USER KEYWORDS 5
+  - USER KEYWORDS 6
+  - USER KEYWORDS 7
+  - USER KEYWORDS 8
+  - VALUE
+  - VAR
+  - VERBOSE REGEX
+- bgColor: $base
+  fgColor: $muted
+  names:
+  - ANNOTATION
+  - ANONYMOUS
+  - ANSI COLOR GRAY
+  - BLOCK COMMENT
+  - BLOCK DOC COMMENT
+  - COMMENT
+  - COMMENT BLOCK
+  - COMMENT BLOCK2
+  - COMMENT BLOCK3
+  - COMMENT BOX
+  - COMMENT DOC
+  - COMMENT DOC KEYWORD
+  - COMMENT DOC KEYWORD ERROR
+  - COMMENT EMBED
+  - COMMENT KEY
+  - COMMENT KEY ERROR
+  - COMMENT LINE
+  - COMMENT LINE BANG
+  - COMMENT LINE DOC
+  - COMMENT NESTED
+  - COMMENT OTHERWISE
+  - COMMENT PASCAL
+  - COMMENT STREAM
+  - COMMENT-BLOCKS
+  - 'COMMENT: /* */'
+  - 'COMMENT: [* *]'
+  - DEFAULT COMMENT
+  - DOC COMMENT
+  - DOCUMENTATION HELPER IN COMMENT
+  - DOCUMENTATION MACRO IN COMMENT
+  - DSC COMMENT
+  - FUNCTION COMMENT
+  - LINE COMMENT
+  - 'LINE COMMENT: #'
+  - LINE DOC COMMENT
+  - ML COMMENT
+  - MODULE COMMENT
+  - MULTI-LINE COMMENT
+  - PREPROCESSOR COMMENT
+  - PREPROCESSOR COMMENT DOC
+  - SINGLE-LINE COMMENT
+  - STRING EOL
+  - TEMPLATE LIT. (CLIENT)
+  - TEMPLATE LIT. (SERVER)
+  - VERBOSE REGEX COMMENT
+  - WHITE SPACE
+  - WHITESPACE
+- bgColor: $base
+  fgColor: $pine
+  names:
+  - '#IFDEF DOC AND #ENDIF'
+  - ANSI COLOR BLUE
+  - ANSI COLOR BRIGHT BLUE
+  - BASE WORD
+  - BINARY
+  - BINARY ( 16#{1A803F59} )
+  - CLIP PROPERTIES
+  - CONTROL
+  - CORE API
+  - CPU INSTRUCTION
+  - DECLARATION
+  - DIRECTIVE OPERAND
+  - DLL FUNCTIONS
+  - DOCUMENT
+  - ENUM DOMAINS
+  - EVENT
+  - FILTER
+  - FOREACHDEF
+  - FORMAT BODY
+  - FORMAT IDENTIFIER
+  - FUNCTION WORD
+  - FUNCTION WORD2
+  - GLOBAL
+  - GRAMMAR
+  - GROUP
+  - IF DEFINE
+  - IFDEF
+  - IMMEVAL
+  - INSTRUCTION
+  - INSTRUCTION WORD
+  - KEYWORD
+  - KEYWORD (ALL)
+  - KEYWORD (DATATYPES)
+  - KEYWORD (TEST FUNCTIONS)
+  - KEYWORD 4
+  - KEYWORD 5
+  - KEYWORD 6
+  - KEYWORD 7
+  - KEYWORD PASCAL
+  - KEYWORD USER
+  - KEYWORD1
+  - KEYWORD2
+  - KEYWORD3
+  - KEYWORD4
+  - KEYWORD5
+  - KEYWORD6
+  - KEYWORDS
+  - KEYWORDS 1
+  - KEYWORDS 2
+  - KEYWORDS 3
+  - KEYWORDS 4
+  - KEYWORDS 5
+  - KEYWORDS 6
+  - KEYWORDS 7
+  - KEYWORDS2
+  - KEYWORDS3
+  - KWS END
+  - LANGUAGE NATIVE KEYWORD OR RESERVED WORD
+  - LD KEYWORD
+  - LOCALE
+  - MACRO KEYWORD
+  - MAJOR
+  - MATH BLOCK
+  - MATH INLINE
+  - MONEY
+  - NIL
+  - OPCODE
+  - PAGE EX
+  - PLUGIN API
+  - PLUGIN METHOD
+  - PREPROCESSOR DIRECTIVE
+  - PREPROCESSOR INLINE
+  - PREWORD1
+  - PREWORD2
+  - PROTOTYPE
+  - RECSTART
+  - RESERVED WORDS
+  - RETURN
+  - SECTION
+  - SECTION GROUP
+  - SECTION KEYWORDS
+  - SERVER-GLOBAL VARIABLE (PREFIXED BY $)
+  - SGML 1ST PARAM
+  - SGML COMMAND
+  - SHORT COMMAND
+  - STATEMENT
+  - STRONG
+  - STRONG 2 (NOT USED)
+  - SUPER
+  - Search Header
+  - USER TAGS1
+  - USER TAGS2
+  - USER TAGS3
+  - USER TAGS4
+  - USER1
+  - VALID OPCODE
+  - VALUE NAME
+  - WHILEDEF
+  - WINDOW INSTRUCTION
+  - WORD
+  - WORD2
+- bgColor: $base
+  fgColor: $iris
+  names:
+  - A-RATE VARIABLE
+  - ANSI COLOR BRIGHT MAGENTA
+  - ANSI COLOR MAGENTA
+  - ARRAY
+  - ATTRIBUTE
+  - ATTRIBUTES
+  - COMPACT IRI
+  - COMPLEX VARIABLE
+  - DATA SECTION
+  - DATASECTION
+  - DIFF Message
+  - EMAIL { JOE@MAIL.DOM }
+  - END OF LINE WHERE STRING IS NOT CLOSED
+  - ESCAPE CHAR
+  - ESCAPE SEQUENCE
+  - ESCAPED CHARACTERS IN STRINGS
+  - ESCAPESEQUENCE
+  - Escape Sequence
+  - FILE { %/C/WINNT/SOME.DLL }
+  - GLOBAL VARIABLE
+  - GUID IN KEY PATH
+  - GUID IN STRING
+  - HEREDOC Q
+  - HEREDOC QQ
+  - HIDE SYMBOL
+  - I-RATE VARIABLE
+  - K-RATE VARIABLE
+  - LINK
+  - MACRO
+  - MACRO QUOTED
+  - MACRODEF
+  - MODULE ATTRIBUTES
+  - NOADDRESS
+  - OBJECT DEFINITIONS
+  - OBJECT METHOD
+  - OBJECT PROPERTY
+  - OLIST
+  - OPTION
+  - PAREN ARRAY
+  - PAREN DICT
+  - PAREN PROC
+  - POSITION
+  - POSITIONAL
+  - PREDECLARED IDENTIFIERS
+  - PREDEFINED ATTRIBUTES
+  - PROPERTY NAME
+  - QUALIFIER
+  - RECCOUNT
+  - REFERENCE
+  - REGISTER
+  - SELF
+  - SENT
+  - STRIKEOUT
+  - STRING ESCAPE
+  - SUB SECTIONS
+  - TABLE DEFINITIONS
+  - TABLE SQL
+  - ULIST
+  - URI
+  - URL { FTP://THERE.DOM }
+  - USER DEFINE
+  - USER DEFINED
+  - VAR IN BACKTICKS
+  - VAR IN HEREDOC BACKTICK
+  - VAR IN HEREDOC DOUBLEQUOTE
+  - VAR IN REGEX
+  - VAR IN REGEX SUBSTITUTION
+  - VAR IN STRING
+  - VAR IN STRING QQ
+  - VAR IN STRING QR
+  - VAR IN STRING QX
+- bgColor: $base
+  fgColor: $love
+  names:
+  - ABSF Error
+  - ANSI COLOR BRIGHT RED
+  - ANSI COLOR RED
+  - BAD STRING CHAR
+  - BASH Error
+  - BORLAND Error
+  - BUILIN FUNC & TYPE
+  - BUILT-IN FUNCTIONS
+  - BUILTINS
+  - Bad brace colour
+  - CHARACTER ESCAPE ERROR
+  - CHARACTER TOO MANY
+  - CMD Error
+  - CTAG Error
+  - DELETED
+  - DIFF Deletion
+  - ELF Error
+  - ERROR
+  - GCC Error
+  - GCC Excerpt Error
+  - GCC Included-From Error
+  - H1
+  - H2
+  - HERE Q
+  - Hit Word
+  - IFC Error
+  - IFORT Error
+  - ILLEGAL
+  - IMPORTANT
+  - 'ISSUE { #123-CD-456 }'
+  - JAVA Stack Error
+  - LEXICAL ERROR
+  - LUA Error
+  - MAIN SECTIONS
+  - MS Error
+  - NET Error
+  - NON OID NUMBERS
+  - NUMBER
+  - PERL Error
+  - PHP Error
+  - PREDEFINED
+  - PREDEFINED CONSTANT
+  - PREDEFINED VARIABLE
+  - PREPROCESSOR
+  - PREPROCESSOR2
+  - PYTHON Error
+  - QUESTION MARK
+  - REMOVED KEY
+  - SPECIAL
+  - SPECIAL CHAR
+  - SPECIAL SELECTOR
+  - STATIC BUILT-IN OBJECT
+  - STRING ESCAPE ERROR
+  - STRING VERBATIM SPECIAL
+  - SYNTAX ERROR
+  - SYSTEM STORED PROC
+  - TARGET
+  - TIDY Error
+  - 'UNKNOWN: ERROR'
+  - Unknown Escape Sequence
+  - VALUE Error
+- bgColor: $base
+  fgColor: $gold
+  names:
+  - ANSI COLOR YELLOW
+  - BASE85 STRING
+  - BLOCKQUOTE
+  - BYTE CHARACTER
+  - BYTE STRING
+  - BYTECOUNT
+  - C STRING
+  - CHAR
+  - CHARACTER
+  - CHARACTERS
+  - DOUBLE QUOTE STRING
+  - DOUBLE QUOTED STRING
+  - DOUBLE STRING
+  - F CHARACTER
+  - F STRING
+  - F TRIPLE
+  - F TRIPLEDOUBLE
+  - HERE CHARACTER
+  - HERE STRING
+  - HEREDOC DOUBLEQUOTE
+  - HEREDOC SINGLEQUOTE
+  - HEX STRING
+  - IN QUOTE
+  - INSTR
+  - LITERAL STRING
+  - LONGQUOTE
+  - PRECHAR (NOT USED)
+  - RAW BYTE STRING
+  - RAW C STRING
+  - RAW STRING
+  - RAWSTRING
+  - RAWSTRING2
+  - RAWSTRING2",
+  - REGULAR STRING
+  - SGML DOUBLESTRING
+  - SGML SIMPLESTRING
+  - SIMPLE STRING
+  - SINGLE QUOTED STRING
+  - SINGLE STRING
+  - STRING
+  - STRING B
+  - STRING BLOCK
+  - STRING D
+  - STRING DOUBLE
+  - STRING DOUBLE QUOTE
+  - STRING DOUBLE QUOTES
+  - STRING DQ
+  - STRING L
+  - STRING LEFT QUOTE
+  - STRING Q
+  - STRING QQ
+  - STRING QR
+  - STRING QW
+  - STRING QX
+  - STRING Q_LANG
+  - STRING R
+  - STRING RAW
+  - STRING RIGHT QUOTE
+  - STRING SINGLE
+  - STRING SINGLE QUOTES
+  - STRING SQ
+  - STRING VAR
+  - STRING VARIABLE
+  - STRING VERBATIM
+  - STRING WITH BRACES
+  - STRING WITH QUOTES
+  - STRING WITH THREE DOUBLE QUOTES
+  - STRING2
+  - TEXT
+  - TRIPLE
+  - TRIPLE DOUBLE
+  - TRIPLE DOUBLE QUOTES
+  - TRIPLE QUOTES
+  - TRIPLE STRING DQ
+  - TRIPLE STRING SQ
+  - VERBATIM
+  - VERBATIM SEGMENT
+  - WORD IN QUOTE
+- bgColor: $base
+  fgColor: $foam
+  names:
+  - ADDED
+  - ADDED KEY
+  - AFTER LABEL
+  - ALIAS
+  - ANSI COLOR BRIGHT CYAN
+  - ANSI COLOR BRIGHT GREEN
+  - ANSI COLOR CYAN
+  - ANSI COLOR GREEN
+  - BINNUMBER
+  - CLASS
+  - CLASS NAME
+  - CLASS NAME DEFINITION
+  - CODE
+  - CODE2
+  - CODEBLOCK
+  - COL NAME
+  - COL NAME IN []'s
+  - CONTINUATION
+  - DATA TYPE
+  - DATAADDRESS
+  - DIFF Addition
+  - DIRECTIVE
+  - DOMAIN DEFINITIONS
+  - EM2 (UNDERLINE)
+  - EXTENDEDADDRESS
+  - File Header
+  - HEX DIGIT
+  - HEX NUMBER
+  - HEXADECIMAL NUMBER
+  - HEXNUMBER
+  - ID
+  - KEY
+  - LIFETIME
+  - LITERAL
+  - MATH INSTRUCTION
+  - MEDIA
+  - MINOR
+  - MODIFICATORS
+  - MODULE NAME
+  - NODEPATH
+  - NUMERIC OID DEFINITION
+  - PAIR ( 800X600 )
+  - PARAM
+  - PARAMETER
+  - PLUGIN
+  - POD VERBATIM
+  - PREFACE
+  - PREPROC
+  - PREPROC DEFINITIONS
+  - PSEUDOCLASS
+  - RECTYPE
+  - REGEX VAR
+  - STARTADDRESS
+  - STD PACKAGE
+  - STD TYPE
+  - TAG
+  - TAG CLOSING
+  - TAG END
+  - TAG OPENING
+  - TAG { <TITLE HEIGHT=100> }
+  - TUPLE ( 127.0.0.1 )
+  - TYPE
+  - TYPE WORD
+  - TYPEDEF
+  - TYPES
+  - VALUE TYPE
+  - XML END
+  - XML START
+- bgColor: $base
+  fgColor: $rose
+  names:
+  - ADVERB
+  - ANSI COLOR BROWN
+  - ASSIGNMENT
+  - ASSOCIATIVE
+  - ATOM
+  - ATOM QUOTED
+  - BACKTICKS
+  - BOOL
+  - BRACES
+  - Brace highlight style
+  - CALLABLE
+  - CDATA
+  - CHECKSUM
+  - CMDLET
+  - COMMAND
+  - COMMAND OPTIONAL ARGUMENT
+  - CONSTANT
+  - CONSTANT LITERAL
+  - Change History modified
+  - DATE
+  - DATE { 17-FEB-2004 1/3/99 }
+  - DATETIME
+  - DECORATOR
+  - DECORATORS
+  - DEF NAME
+  - DEFVAL
+  - DEFWORDS
+  - DESCRIPTORS
+  - EM1 (ITALIC)
+  - EXT INSTRUCTION
+  - FUNC NAME
+  - FUNC1
+  - FUNC2
+  - FUNC3
+  - FUNCS AND METHODS 1
+  - FUNCS AND METHODS 2
+  - FUNCTION
+  - FUNCTION DEFINITIONS
+  - FUNCTION NAME
+  - FUNCTION OR METHOD NAME DEFINITION
+  - FUNCTION1
+  - FUNCTION2
+  - FUNCTIONS
+  - FUNCTIONS ABRIDGED
+  - H3
+  - H4
+  - H5
+  - H6
+  - HEADER
+  - HEADER STATEMENT
+  - HEREDOC BACKTICK
+  - HRULE
+  - INFIX
+  - INFIXEOL
+  - LABEL
+  - LABEL TO JUMP TO WITH THE GOTO STATEMENT
+  - LEGACY PSEUDOELEMENT
+  - Line Number
+  - MACRO FUNCTION
+  - MODIFIER
+  - NODE NAME
+  - NODE NAME QUOTED
+  - POSTPROC
+  - PSEUDOELEMENT
+  - RECORD
+  - RECORD QUOTED
+  - SCALAR
+  - STD FUNCTION
+  - TABLE
+  - TASK START/END
+  - TIME { 12:30 11:22:59 01:59:59.123 }
+  - USER ATTRIBUTES 1
+  - USER ATTRIBUTES 2
+  - USER ATTRIBUTES 3
+  - USER ATTRIBUTES 4
+  - USER ATTRIBUTES 5
+  - USER ATTRIBUTES 6
+  - USER ATTRIBUTES 7
+  - USER ATTRIBUTES 8
+  - USER ATTRIBUTES1
+  - USER ATTRIBUTES2
+  - USER ATTRIBUTES3
+  - USER ATTRIBUTES4
+  - USER SCALAR 1
+  - USER SCALAR 2
+  - USER SCALAR 3
+  - USER SCALAR 4
+  - VARIABLE
+- bgColor: $base
+  fgColor: $subtle
+  names:
+  - ANSI COLOR DARK GRAY
+  - ASSIGN
+  - ASTERISK
+  - DELIMITER
+  - HASH
+  - HERE DELIM
+  - HEREDOC DELIMITER
+  - MU
+  - OPERATOR
+  - OPERATOR2
+  - OPERATOR; EITHER SYMBOLIC OR LITERAL
+  - OPERATORS
+  - OPERATORS (DELIMITERS)
+  - PUNCTUATION
+  - Q OPERATOR
+  - REGSUBST
+  - STD OPERATOR
+  - SUB BRACE
+  - SUBSTITUTION
+  - SYMBOL
+  - SYMBOL TABLE
+  - SYMBOLS
+  - TRANSLATION
+- bgColor: $base
+  fgColor: $highlightHigh
+  names:
+  - HIGHLIGHTED IDENTIFIERS
+  - Indent guideline style
+- bgColor: $highlightLow
+  fgColor: null
+  names:
+  - Current line background colour
+- bgColor: $highlightMed
+  fgColor: $text
+  names:
+  - Selected text colour
+- bgColor: null
+  fgColor: $text
+  names:
+  - Caret colour
+- bgColor: null
+  fgColor: $foam
+  names:
+  - Edge colour
+- bgColor: $surface
+  fgColor: $muted
+  names:
+  - Fold
+  - Line number margin
+- bgColor: $surface
+  fgColor: $surface
+  names:
+  - Bookmark margin
+  - Change History margin
+  - Fold margin
+  - Inactive tabs
+- bgColor: null
+  fgColor: $rose
+  names:
+  - Fold active
+  - Non-printing characters custom color
+- bgColor: null
+  fgColor: $muted
+  names:
+  - EOL custom color
+  - White space symbol
+- bgColor: $highlightMed
+  fgColor: null
+  names:
+  - Multi-selected text color
+  - Smart Highlighting
+  - Tags match highlighting
+- bgColor: $love
+  fgColor: null
+  names:
+  - Find Mark Style
+- bgColor: $foam
+  fgColor: null
+  names:
+  - Mark Style 1
+  - Tab color 2
+  - Tab color dark mode 2
+- bgColor: $rose
+  fgColor: null
+  names:
+  - Mark Style 2
+  - Tab color 4
+  - Tab color dark mode 4
+- bgColor: $gold
+  fgColor: null
+  names:
+  - Mark Style 3
+  - Tab color 1
+  - Tab color dark mode 1
+- bgColor: $iris
+  fgColor: null
+  names:
+  - Mark Style 4
+  - Tab color 5
+  - Tab color dark mode 5
+- bgColor: $pine
+  fgColor: null
+  names:
+  - Mark Style 5
+  - Tab color 3
+  - Tab color dark mode 3
+- bgColor: $highlightHigh
+  fgColor: null
+  names:
+  - Incremental highlight all
+- bgColor: $surface
+  fgColor: null
+  names:
+  - Tags attribute
+- bgColor: null
+  fgColor: $highlightMed
+  names:
+  - Active tab focused indicator
+  - Multi-edit carets color
+- bgColor: null
+  fgColor: $highlightLow
+  names:
+  - Active tab unfocused indicator
+- bgColor: null
+  fgColor: $text
+  names:
+  - Active tab text
+- bgColor: null
+  fgColor: $iris
+  names:
+  - URL hovered
+- bgColor: $base
+  fgColor: $surface
+  names:
+  - Document map
+- bgColor: $rose
+  fgColor: $rose
+  names:
+  - Change History modified
+  - DIFF Changed
+- bgColor: $foam
+  fgColor: $foam
+  names:
+  - Change History revert modified
+- bgColor: $pine
+  fgColor: $pine
+  names:
+  - Change History revert origin
+- bgColor: $iris
+  fgColor: $iris
+  names:
+  - Change History saved
+- bgColor: null
+  fgColor: $love
+  names:
+  - 'Find status: Not found'
+- bgColor: null
+  fgColor: $pine
+  names:
+  - 'Find status: Message'
+- bgColor: null
+  fgColor: $foam
+  names:
+  - 'Find status: Search end reached'
+- bgColor: $base
+  fgColor: $base
+  names:
+  - ANSI COLOR WHITE
