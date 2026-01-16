@@ -1,6 +1,5 @@
 """Rose pine theme generator for notepad++."""
 
-import logging
 import subprocess
 from argparse import ArgumentParser
 from dataclasses import asdict, dataclass
@@ -8,8 +7,6 @@ from enum import StrEnum
 from xml.etree import ElementTree as ET
 
 import yaml
-
-logger = logging.getLogger(__name__)
 
 
 @dataclass
@@ -58,11 +55,6 @@ def update_fg_bg_color(
             element.set("fgColor", new_fg_color)
         if new_bg_color is not None:
             element.set("bgColor", new_bg_color)
-    else:
-        logger.warning(
-            f"Style name mismatch: expected `{style_name}` but got "
-            f"`{element.get('name')}`."
-        )
     return element
 
 
