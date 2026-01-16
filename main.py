@@ -13,8 +13,8 @@ logger = logging.getLogger(__name__)
 
 
 @dataclass
-class StyleConfig:
-    """Model for style config."""
+class Style:
+    """Model for style."""
 
     names: list[str]
     fgColor: str | None = None
@@ -157,20 +157,20 @@ def get_distinct_style_names(lexer_styles: ET.Element) -> list[str]:
 
 def get_distinct_missing_style_names(
     lexer_styles: ET.Element,
-    styles_config: list[StyleConfig],
+    styles: list[Style],
 ) -> list[str]:
     """Get distinct missing style names from config compared to source file.
 
     :param lexer_styles: lexer styles xml element
     :type lexer_styles: ET.Element
-    :param styles_config: styles config
-    :type styles_config: list[StyleConfig]
+    :param styles: styles
+    :type styles: list[Style]
     :return: list of distinct missing style names
     :rtype: list[str]
     """
     existing_style_names = set(get_distinct_style_names(lexer_styles))
     config_style_names = set()
-    for words_style_config in styles_config:
+    for words_style_config in styles:
         for name in words_style_config.names:
             config_style_names.add(name)
     missing_names = existing_style_names - config_style_names
@@ -178,40 +178,40 @@ def get_distinct_missing_style_names(
     return sorted(missing_names)
 
 
-def load_styles_config(config_file_path: str) -> list[StyleConfig]:
-    """Load styles config.
+def load_styles_from_config(config_file_path: str) -> list[Style]:
+    """Load styles from config.
 
     :param config_file_path: config file path
     :type config_file_path: str
-    :return: styles config
-    :rtype: list[StyleConfig]
+    :return: styles
+    :rtype: list[Style]
     """
-    styles_config: list[StyleConfig] = []
+    styles: list[Style] = []
     with open(config_file_path, encoding="utf-8") as config_file:
         config_data = yaml.safe_load(config_file)
         for data in config_data.get("styles", []):
-            styles_config.append(
-                StyleConfig(
+            styles.append(
+                Style(
                     names=data.get("names", []),
                     fgColor=data.get("fgColor"),
                     bgColor=data.get("bgColor"),
                 )
             )
-    return styles_config
+    return styles
 
 
 def format_config_file(
     config_file_path: str,
-    styles_config: list[StyleConfig],
+    styles: list[Style],
 ) -> None:
     """Format and save config file.
 
     :param config_file_path: config file path
     :type config_file_path: str
-    :param styles_config: styles config
-    :type styles_config: list[StyleConfig]
+    :param styles: styles
+    :type styles: list[Style]
     """
-    config_data = {"styles": [asdict(style_config) for style_config in styles_config]}
+    config_data = {"styles": [asdict(style) for style in styles]}
     with open(config_file_path, "w", encoding="utf-8") as config_file:
         yaml.dump(
             config_data,
@@ -235,7 +235,7 @@ def create_or_update_template(
     :param config_file_path: config file path
     :type config_file_path: str
     """
-    styles_config = load_styles_config(config_file_path)
+    styles = load_styles_from_config(config_file_path)
 
     # parse and update XML file
     root = parse_xml_file(source_file_path)
@@ -246,26 +246,26 @@ def create_or_update_template(
     for lexer_type in lexer_types:
         words_styles = get_words_styles(lexer_type)
         for words_style in words_styles:
-            for style_config in styles_config:
-                for name in style_config.names:
+            for style in styles:
+                for name in style.names:
                     _ = update_fg_bg_color(
                         words_style,
                         name,
-                        style_config.fgColor,
-                        style_config.bgColor,
+                        style.fgColor,
+                        style.bgColor,
                     )
 
     # update global styles
     global_styles = get_global_styles(root)
     widget_styles = get_widget_styles(global_styles)
     for widget_style in widget_styles:
-        for style_config in styles_config:
-            for name in style_config.names:
+        for style in styles:
+            for name in style.names:
                 _ = update_fg_bg_color(
                     widget_style,
                     name,
-                    style_config.fgColor,
-                    style_config.bgColor,
+                    style.fgColor,
+                    style.bgColor,
                 )
 
     # write updated XML to target file
@@ -354,10 +354,10 @@ def main():
             )
 
         case Command.format_config_file:
-            styles_config = load_styles_config(args.config)
+            styles = load_styles_from_config(args.config)
             format_config_file(
                 config_file_path=args.config,
-                styles_config=styles_config,
+                styles=styles,
             )
 
         case Command.get_distinct_style_names:
@@ -370,12 +370,12 @@ def main():
             print(f"Distinct style count: {len(distinct_style_names)}")
 
         case Command.get_distinct_missing_style_names:
-            styles_config = load_styles_config(args.config)
+            styles = load_styles_from_config(args.config)
             root = parse_xml_file(args.source)
             lexer_styles = get_lexer_styles(root)
             missing_style_names = get_distinct_missing_style_names(
                 lexer_styles,
-                styles_config,
+                styles,
             )
             print("Missing style names:")
             for name in missing_style_names:
