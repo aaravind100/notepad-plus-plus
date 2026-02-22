@@ -214,11 +214,14 @@ styles:
   - STRONG 2 (NOT USED)
   - SUPER
   - Search Header
+  - TK COMMAND
+  - TK KEYWORD
   - USER TAGS1
   - USER TAGS2
   - USER TAGS3
   - USER TAGS4
   - USER1
+  - USER4
   - VALID OPCODE
   - VALUE NAME
   - WHILEDEF
