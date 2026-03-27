@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<NotepadPlus modelFileLastModifiedDate="20260107" modelDate="20251223">
+<NotepadPlus modelFileLastModifiedDate="20260129" modelDate="20251223">
     <LexerStyles>
         <LexerType name="actionscript" desc="ActionScript" ext="">
             <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize=""></WordsStyle>
@@ -855,7 +855,7 @@
             <WordsStyle name="IDENTIFIER" styleID="6" fgColor="5080E0" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize=""></WordsStyle>
             <WordsStyle name="VARIABLE" styleID="7" fgColor="CC1166" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize=""></WordsStyle>
             <WordsStyle name="COL NAME" styleID="8" fgColor="808080" bgColor="F0F0FF" fontName="" fontStyle="0" fontSize=""></WordsStyle>
-            <WordsStyle name="COL NAME IN []&apos;s" styleID="16" fgColor="D08000" bgColor="FFFFFF" fontName="" fontStyle="2" fontSize=""></WordsStyle>
+            <WordsStyle name="COL NAME IN []'s" styleID="16" fgColor="D08000" bgColor="FFFFFF" fontName="" fontStyle="2" fontSize=""></WordsStyle>
         </LexerType>
         <LexerType name="mmixal" desc="MMIXAL" ext="">
             <WordsStyle name="DIVSION OF LEADING WHITESPACE IN LINE" styleID="0" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize=""></WordsStyle>
@@ -1211,7 +1211,7 @@
             <WordsStyle name="BINARY ( 16#{1A803F59} )" styleID="11" fgColor="C000C0" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize=""></WordsStyle>
             <WordsStyle name="MONEY" styleID="12" fgColor="003070" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize=""></WordsStyle>
             <WordsStyle name="ISSUE { #123-CD-456 }" styleID="13" fgColor="800000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize=""></WordsStyle>
-            <WordsStyle name="TAG { &lt;TITLE HEIGHT=100&gt; }" styleID="14" fgColor="C00000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="TAG { &lt;TITLE HEIGHT=100> }" styleID="14" fgColor="C00000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize=""></WordsStyle>
             <WordsStyle name="FILE { %/C/WINNT/SOME.DLL }" styleID="15" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize=""></WordsStyle>
             <WordsStyle name="EMAIL { JOE@MAIL.DOM }" styleID="16" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize=""></WordsStyle>
             <WordsStyle name="URL { FTP://THERE.DOM }" styleID="17" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize=""></WordsStyle>
