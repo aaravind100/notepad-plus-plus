@@ -36,6 +36,7 @@
 - Development Requirements:
   - npx: 11.6.2+
   - python: 3.14.2+
+  - uv
   - pre-commit/prek
 
 - The template.xml is a modified version of the default npp theme located at `%AppData%\Notepad++\stylers.xml`. Use it as a reference when updating/adding languages.
@@ -46,10 +47,22 @@
     python main.py create-or-update-template
     ```
 
+    or
+
+    ```sh
+    uv run main.py create-or-update-template
+    ```
+
 - Build variants and copy themes to npp themes location to test it.
 
     ```sh
     python main.py build-theme-variants
+    ```
+
+    or
+
+    ```sh
+    uv run main.py build-theme-variants
     ```
 
 - Run pre-commit checks.
