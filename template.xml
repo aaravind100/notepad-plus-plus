@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<NotepadPlus modelFileLastModifiedDate="20260129" modelDate="20251223">
+<NotepadPlus modelFileLastModifiedDate="20260517" modelDate="20260511">
     <LexerStyles>
         <LexerType name="actionscript" desc="ActionScript" ext="">
             <WordsStyle name="DEFAULT" styleID="11" fgColor="$text" bgColor="$base" fontName="" fontStyle="0" fontSize=""></WordsStyle>
@@ -257,6 +257,7 @@
             <WordsStyle name="USER KEYWORDS 6" styleID="133" fgColor="$text" bgColor="$base" fontName="" fontStyle="1" fontSize="" keywordClass="substyle6"></WordsStyle>
             <WordsStyle name="USER KEYWORDS 7" styleID="134" fgColor="$text" bgColor="$base" fontName="" fontStyle="1" fontSize="" keywordClass="substyle7"></WordsStyle>
             <WordsStyle name="USER KEYWORDS 8" styleID="135" fgColor="$text" bgColor="$base" fontName="" fontStyle="1" fontSize="" keywordClass="substyle8"></WordsStyle>
+            <WordsStyle name="STRINGRAW" styleID="20" fgColor="$gold" bgColor="$base" fontName="" fontStyle="0" fontSize=""></WordsStyle>
         </LexerType>
         <LexerType name="cs" desc="C#" ext="">
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="$love" bgColor="$base" fontName="" fontStyle="0" fontSize=""></WordsStyle>
@@ -988,6 +989,7 @@
             <WordsStyle name="CHARACTER" styleID="12" fgColor="$gold" bgColor="$base" fontName="" fontStyle="0" fontSize=""></WordsStyle>
             <WordsStyle name="OPERATOR" styleID="13" fgColor="$subtle" bgColor="$base" fontName="" fontStyle="1" fontSize=""></WordsStyle>
             <WordsStyle name="ASM" styleID="14" fgColor="$text" bgColor="$base" fontName="" fontStyle="1" fontSize=""></WordsStyle>
+            <WordsStyle name="MULTILINESTRING" styleID="15" fgColor="$gold" bgColor="$base" fontName="" fontStyle="0" fontSize=""></WordsStyle>
         </LexerType>
         <LexerType name="perl" desc="Perl" ext="">
             <WordsStyle name="PREPROCESSOR" styleID="9" fgColor="$love" bgColor="$base" fontName="" fontStyle="0" fontSize=""></WordsStyle>
