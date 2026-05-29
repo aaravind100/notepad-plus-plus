@@ -1,3 +1,9 @@
+# /// script
+# requires-python = ">=3.14"
+# dependencies = [
+#     "pyyaml>=6.0.3",
+# ]
+# ///
 """Rose pine theme generator for notepad++."""
 
 import subprocess
