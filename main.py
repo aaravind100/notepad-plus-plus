@@ -146,10 +146,10 @@ def get_distinct_style_names(lexer_styles: ET.Element) -> list[str]:
     :return: list of distinct style names
     :rtype: list[str]
     """
-    distinct_style_names = set()
+    distinct_style_names: set[str] = set()
     for lexer_type in get_lexer_types(lexer_styles):
         for style in lexer_type.findall("WordsStyle"):
-            distinct_style_names.add(style.get("name"))
+            distinct_style_names.add(style.get("name", ""))
     return sorted(distinct_style_names)
 
 
@@ -339,14 +339,14 @@ def main():
         case Command.build_theme_variants:
             subprocess.run(  # noqa: S603
                 [  # noqa: S607
-                    "npx",
-                    "@rose-pine/build",
-                    "-t",
+                    "bloom",
+                    "build",
                     args.target,
                     "-o",
                     ".",
                     "-f",
-                    "hex-ns",
+                    "hex",
+                    "--plain",
                 ],
                 check=True,
             )
