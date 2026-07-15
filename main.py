@@ -10,6 +10,7 @@ import subprocess
 from argparse import ArgumentParser
 from dataclasses import asdict, dataclass
 from enum import StrEnum
+from typing import Any
 from xml.etree import ElementTree as ET
 
 import yaml
@@ -35,6 +36,26 @@ class Style:
             raise ValueError("bgColor must start with '$' if provided")
 
         self.names = sorted(set(self.names))
+
+    def __hash__(self):
+        """Hash method."""
+        return hash((self.fgColor, self.bgColor))
+
+    def __add__(self, other: Any) -> Style:
+        """Add method."""
+        if isinstance(other, Style) and hash(self) == hash(other):
+            return Style(
+                names=self.names + other.names,
+                fgColor=self.fgColor,
+                bgColor=self.bgColor,
+            )
+        raise NotImplementedError(f"add not implemented for type: {type(other)}")
+
+    def __radd__(self, other: Any) -> Style:
+        """Radd method."""
+        if other == 0:
+            return self
+        return self.__add__(other)
 
 
 def update_fg_bg_color(
@@ -198,6 +219,17 @@ def load_styles_from_config(config_file_path: str) -> list[Style]:
     return styles
 
 
+def simplify_styles(styles: list[Style]) -> list[Style]:
+    """Simplify styles by combining similar styles."""
+    hm: dict[Style, Style] = {}
+    for style in styles:
+        if style in hm:
+            hm[style] += style
+        else:
+            hm[style] = style
+    return list(hm.values())
+
+
 def format_config_file(
     config_file_path: str,
     styles: list[Style],
@@ -209,6 +241,7 @@ def format_config_file(
     :param styles: styles
     :type styles: list[Style]
     """
+    styles = simplify_styles(styles)
     config_data = {"styles": [asdict(style) for style in styles]}
     with open(config_file_path, "w", encoding="utf-8") as config_file:
         yaml.dump(
