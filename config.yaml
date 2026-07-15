@@ -286,6 +286,7 @@ styles:
   - STRIKEOUT
   - STRING ESCAPE
   - SUB SECTIONS
+  - Sequence Identifier
   - TABLE DEFINITIONS
   - TABLE SQL
   - ULIST
@@ -361,6 +362,7 @@ styles:
   - STRING VERBATIM SPECIAL
   - SYNTAX ERROR
   - SYSTEM STORED PROC
+  - Sequence Unknown
   - TARGET
   - TIDY Error
   - 'UNKNOWN: ERROR'
@@ -782,3 +784,651 @@ styles:
   fgColor: $base
   names:
   - ANSI COLOR WHITE
+- bgColor: $text
+  fgColor: $text
+  names:
+  - BLACK on BLACK
+- bgColor: $foam
+  fgColor: $text
+  names:
+  - BLACK on BLUE
+- bgColor: $foam
+  fgColor: $text
+  names:
+  - BLACK on CYAN
+- bgColor: $base
+  fgColor: $text
+  names:
+  - BLACK on DEFAULT
+- bgColor: $pine
+  fgColor: $text
+  names:
+  - BLACK on GREEN
+- bgColor: $iris
+  fgColor: $text
+  names:
+  - BLACK on MAGENTA
+- bgColor: $love
+  fgColor: $text
+  names:
+  - BLACK on RED
+- bgColor: $base
+  fgColor: $text
+  names:
+  - BLACK on WHITE
+- bgColor: $gold
+  fgColor: $text
+  names:
+  - BLACK on YELLOW
+- bgColor: $text
+  fgColor: $foam
+  names:
+  - BLUE on BLACK
+- bgColor: $foam
+  fgColor: $foam
+  names:
+  - BLUE on BLUE
+- bgColor: $foam
+  fgColor: $foam
+  names:
+  - BLUE on CYAN
+- bgColor: $base
+  fgColor: $foam
+  names:
+  - BLUE on DEFAULT
+- bgColor: $pine
+  fgColor: $foam
+  names:
+  - BLUE on GREEN
+- bgColor: $iris
+  fgColor: $foam
+  names:
+  - BLUE on MAGENTA
+- bgColor: $love
+  fgColor: $foam
+  names:
+  - BLUE on RED
+- bgColor: $base
+  fgColor: $foam
+  names:
+  - BLUE on WHITE
+- bgColor: $gold
+  fgColor: $foam
+  names:
+  - BLUE on YELLOW
+- bgColor: $text
+  fgColor: $text
+  names:
+  - BOLD BLACK on BLACK
+- bgColor: $foam
+  fgColor: $text
+  names:
+  - BOLD BLACK on BLUE
+- bgColor: $foam
+  fgColor: $text
+  names:
+  - BOLD BLACK on CYAN
+- bgColor: $base
+  fgColor: $text
+  names:
+  - BOLD BLACK on DEFAULT
+- bgColor: $pine
+  fgColor: $text
+  names:
+  - BOLD BLACK on GREEN
+- bgColor: $iris
+  fgColor: $text
+  names:
+  - BOLD BLACK on MAGENTA
+- bgColor: $love
+  fgColor: $text
+  names:
+  - BOLD BLACK on RED
+- bgColor: $base
+  fgColor: $text
+  names:
+  - BOLD BLACK on WHITE
+- bgColor: $gold
+  fgColor: $text
+  names:
+  - BOLD BLACK on YELLOW
+- bgColor: $text
+  fgColor: $foam
+  names:
+  - BOLD BLUE on BLACK
+- bgColor: $foam
+  fgColor: $foam
+  names:
+  - BOLD BLUE on BLUE
+- bgColor: $foam
+  fgColor: $foam
+  names:
+  - BOLD BLUE on CYAN
+- bgColor: $base
+  fgColor: $foam
+  names:
+  - BOLD BLUE on DEFAULT
+- bgColor: $pine
+  fgColor: $foam
+  names:
+  - BOLD BLUE on GREEN
+- bgColor: $iris
+  fgColor: $foam
+  names:
+  - BOLD BLUE on MAGENTA
+- bgColor: $love
+  fgColor: $foam
+  names:
+  - BOLD BLUE on RED
+- bgColor: $base
+  fgColor: $foam
+  names:
+  - BOLD BLUE on WHITE
+- bgColor: $gold
+  fgColor: $foam
+  names:
+  - BOLD BLUE on YELLOW
+- bgColor: $text
+  fgColor: $foam
+  names:
+  - BOLD CYAN on BLACK
+- bgColor: $foam
+  fgColor: $foam
+  names:
+  - BOLD CYAN on BLUE
+- bgColor: $foam
+  fgColor: $foam
+  names:
+  - BOLD CYAN on CYAN
+- bgColor: $base
+  fgColor: $foam
+  names:
+  - BOLD CYAN on DEFAULT
+- bgColor: $pine
+  fgColor: $foam
+  names:
+  - BOLD CYAN on GREEN
+- bgColor: $iris
+  fgColor: $foam
+  names:
+  - BOLD CYAN on MAGENTA
+- bgColor: $love
+  fgColor: $foam
+  names:
+  - BOLD CYAN on RED
+- bgColor: $base
+  fgColor: $foam
+  names:
+  - BOLD CYAN on WHITE
+- bgColor: $gold
+  fgColor: $foam
+  names:
+  - BOLD CYAN on YELLOW
+- bgColor: $text
+  fgColor: $text
+  names:
+  - BOLD DEFAULT on BLACK
+- bgColor: $foam
+  fgColor: $text
+  names:
+  - BOLD DEFAULT on BLUE
+- bgColor: $foam
+  fgColor: $text
+  names:
+  - BOLD DEFAULT on CYAN
+- bgColor: $base
+  fgColor: $text
+  names:
+  - BOLD DEFAULT on DEFAULT
+- bgColor: $pine
+  fgColor: $text
+  names:
+  - BOLD DEFAULT on GREEN
+- bgColor: $iris
+  fgColor: $text
+  names:
+  - BOLD DEFAULT on MAGENTA
+- bgColor: $love
+  fgColor: $text
+  names:
+  - BOLD DEFAULT on RED
+- bgColor: $base
+  fgColor: $text
+  names:
+  - BOLD DEFAULT on WHITE
+- bgColor: $gold
+  fgColor: $text
+  names:
+  - BOLD DEFAULT on YELLOW
+- bgColor: $text
+  fgColor: $pine
+  names:
+  - BOLD GREEN on BLACK
+- bgColor: $foam
+  fgColor: $pine
+  names:
+  - BOLD GREEN on BLUE
+- bgColor: $foam
+  fgColor: $pine
+  names:
+  - BOLD GREEN on CYAN
+- bgColor: $base
+  fgColor: $pine
+  names:
+  - BOLD GREEN on DEFAULT
+- bgColor: $pine
+  fgColor: $pine
+  names:
+  - BOLD GREEN on GREEN
+- bgColor: $iris
+  fgColor: $pine
+  names:
+  - BOLD GREEN on MAGENTA
+- bgColor: $love
+  fgColor: $pine
+  names:
+  - BOLD GREEN on RED
+- bgColor: $base
+  fgColor: $pine
+  names:
+  - BOLD GREEN on WHITE
+- bgColor: $gold
+  fgColor: $pine
+  names:
+  - BOLD GREEN on YELLOW
+- bgColor: $text
+  fgColor: $iris
+  names:
+  - BOLD MAGENTA on BLACK
+- bgColor: $foam
+  fgColor: $iris
+  names:
+  - BOLD MAGENTA on BLUE
+- bgColor: $foam
+  fgColor: $iris
+  names:
+  - BOLD MAGENTA on CYAN
+- bgColor: $base
+  fgColor: $iris
+  names:
+  - BOLD MAGENTA on DEFAULT
+- bgColor: $pine
+  fgColor: $iris
+  names:
+  - BOLD MAGENTA on GREEN
+- bgColor: $iris
+  fgColor: $iris
+  names:
+  - BOLD MAGENTA on MAGENTA
+- bgColor: $love
+  fgColor: $iris
+  names:
+  - BOLD MAGENTA on RED
+- bgColor: $base
+  fgColor: $iris
+  names:
+  - BOLD MAGENTA on WHITE
+- bgColor: $gold
+  fgColor: $iris
+  names:
+  - BOLD MAGENTA on YELLOW
+- bgColor: $text
+  fgColor: $love
+  names:
+  - BOLD RED on BLACK
+- bgColor: $foam
+  fgColor: $love
+  names:
+  - BOLD RED on BLUE
+- bgColor: $foam
+  fgColor: $love
+  names:
+  - BOLD RED on CYAN
+- bgColor: $base
+  fgColor: $love
+  names:
+  - BOLD RED on DEFAULT
+- bgColor: $pine
+  fgColor: $love
+  names:
+  - BOLD RED on GREEN
+- bgColor: $iris
+  fgColor: $love
+  names:
+  - BOLD RED on MAGENTA
+- bgColor: $love
+  fgColor: $love
+  names:
+  - BOLD RED on RED
+- bgColor: $base
+  fgColor: $love
+  names:
+  - BOLD RED on WHITE
+- bgColor: $gold
+  fgColor: $love
+  names:
+  - BOLD RED on YELLOW
+- bgColor: $text
+  fgColor: $base
+  names:
+  - BOLD WHITE on BLACK
+- bgColor: $foam
+  fgColor: $base
+  names:
+  - BOLD WHITE on BLUE
+- bgColor: $foam
+  fgColor: $base
+  names:
+  - BOLD WHITE on CYAN
+- bgColor: $base
+  fgColor: $base
+  names:
+  - BOLD WHITE on DEFAULT
+- bgColor: $pine
+  fgColor: $base
+  names:
+  - BOLD WHITE on GREEN
+- bgColor: $iris
+  fgColor: $base
+  names:
+  - BOLD WHITE on MAGENTA
+- bgColor: $love
+  fgColor: $base
+  names:
+  - BOLD WHITE on RED
+- bgColor: $base
+  fgColor: $base
+  names:
+  - BOLD WHITE on WHITE
+- bgColor: $gold
+  fgColor: $base
+  names:
+  - BOLD WHITE on YELLOW
+- bgColor: $text
+  fgColor: $gold
+  names:
+  - BOLD YELLOW on BLACK
+- bgColor: $foam
+  fgColor: $gold
+  names:
+  - BOLD YELLOW on BLUE
+- bgColor: $foam
+  fgColor: $gold
+  names:
+  - BOLD YELLOW on CYAN
+- bgColor: $base
+  fgColor: $gold
+  names:
+  - BOLD YELLOW on DEFAULT
+- bgColor: $pine
+  fgColor: $gold
+  names:
+  - BOLD YELLOW on GREEN
+- bgColor: $iris
+  fgColor: $gold
+  names:
+  - BOLD YELLOW on MAGENTA
+- bgColor: $love
+  fgColor: $gold
+  names:
+  - BOLD YELLOW on RED
+- bgColor: $base
+  fgColor: $gold
+  names:
+  - BOLD YELLOW on WHITE
+- bgColor: $gold
+  fgColor: $gold
+  names:
+  - BOLD YELLOW on YELLOW
+- bgColor: $text
+  fgColor: $foam
+  names:
+  - CYAN on BLACK
+- bgColor: $foam
+  fgColor: $foam
+  names:
+  - CYAN on BLUE
+- bgColor: $foam
+  fgColor: $foam
+  names:
+  - CYAN on CYAN
+- bgColor: $base
+  fgColor: $foam
+  names:
+  - CYAN on DEFAULT
+- bgColor: $pine
+  fgColor: $foam
+  names:
+  - CYAN on GREEN
+- bgColor: $iris
+  fgColor: $foam
+  names:
+  - CYAN on MAGENTA
+- bgColor: $love
+  fgColor: $foam
+  names:
+  - CYAN on RED
+- bgColor: $base
+  fgColor: $foam
+  names:
+  - CYAN on WHITE
+- bgColor: $gold
+  fgColor: $foam
+  names:
+  - CYAN on YELLOW
+- bgColor: $text
+  fgColor: $text
+  names:
+  - DEFAULT on BLACK
+- bgColor: $foam
+  fgColor: $text
+  names:
+  - DEFAULT on BLUE
+- bgColor: $foam
+  fgColor: $text
+  names:
+  - DEFAULT on CYAN
+- bgColor: $base
+  fgColor: $text
+  names:
+  - DEFAULT on DEFAULT
+- bgColor: $pine
+  fgColor: $text
+  names:
+  - DEFAULT on GREEN
+- bgColor: $iris
+  fgColor: $text
+  names:
+  - DEFAULT on MAGENTA
+- bgColor: $love
+  fgColor: $text
+  names:
+  - DEFAULT on RED
+- bgColor: $base
+  fgColor: $text
+  names:
+  - DEFAULT on WHITE
+- bgColor: $gold
+  fgColor: $text
+  names:
+  - DEFAULT on YELLOW
+- bgColor: $text
+  fgColor: $pine
+  names:
+  - GREEN on BLACK
+- bgColor: $foam
+  fgColor: $pine
+  names:
+  - GREEN on BLUE
+- bgColor: $foam
+  fgColor: $pine
+  names:
+  - GREEN on CYAN
+- bgColor: $base
+  fgColor: $pine
+  names:
+  - GREEN on DEFAULT
+- bgColor: $pine
+  fgColor: $pine
+  names:
+  - GREEN on GREEN
+- bgColor: $iris
+  fgColor: $pine
+  names:
+  - GREEN on MAGENTA
+- bgColor: $love
+  fgColor: $pine
+  names:
+  - GREEN on RED
+- bgColor: $base
+  fgColor: $pine
+  names:
+  - GREEN on WHITE
+- bgColor: $gold
+  fgColor: $pine
+  names:
+  - GREEN on YELLOW
+- bgColor: $text
+  fgColor: $iris
+  names:
+  - MAGENTA on BLACK
+- bgColor: $foam
+  fgColor: $iris
+  names:
+  - MAGENTA on BLUE
+- bgColor: $foam
+  fgColor: $iris
+  names:
+  - MAGENTA on CYAN
+- bgColor: $base
+  fgColor: $iris
+  names:
+  - MAGENTA on DEFAULT
+- bgColor: $pine
+  fgColor: $iris
+  names:
+  - MAGENTA on GREEN
+- bgColor: $iris
+  fgColor: $iris
+  names:
+  - MAGENTA on MAGENTA
+- bgColor: $love
+  fgColor: $iris
+  names:
+  - MAGENTA on RED
+- bgColor: $base
+  fgColor: $iris
+  names:
+  - MAGENTA on WHITE
+- bgColor: $gold
+  fgColor: $iris
+  names:
+  - MAGENTA on YELLOW
+- bgColor: $text
+  fgColor: $love
+  names:
+  - RED on BLACK
+- bgColor: $foam
+  fgColor: $love
+  names:
+  - RED on BLUE
+- bgColor: $foam
+  fgColor: $love
+  names:
+  - RED on CYAN
+- bgColor: $base
+  fgColor: $love
+  names:
+  - RED on DEFAULT
+- bgColor: $pine
+  fgColor: $love
+  names:
+  - RED on GREEN
+- bgColor: $iris
+  fgColor: $love
+  names:
+  - RED on MAGENTA
+- bgColor: $love
+  fgColor: $love
+  names:
+  - RED on RED
+- bgColor: $base
+  fgColor: $love
+  names:
+  - RED on WHITE
+- bgColor: $gold
+  fgColor: $love
+  names:
+  - RED on YELLOW
+- bgColor: $text
+  fgColor: $base
+  names:
+  - WHITE on BLACK
+- bgColor: $foam
+  fgColor: $base
+  names:
+  - WHITE on BLUE
+- bgColor: $foam
+  fgColor: $base
+  names:
+  - WHITE on CYAN
+- bgColor: $base
+  fgColor: $base
+  names:
+  - WHITE on DEFAULT
+- bgColor: $pine
+  fgColor: $base
+  names:
+  - WHITE on GREEN
+- bgColor: $iris
+  fgColor: $base
+  names:
+  - WHITE on MAGENTA
+- bgColor: $love
+  fgColor: $base
+  names:
+  - WHITE on RED
+- bgColor: $base
+  fgColor: $base
+  names:
+  - WHITE on WHITE
+- bgColor: $gold
+  fgColor: $base
+  names:
+  - WHITE on YELLOW
+- bgColor: $text
+  fgColor: $gold
+  names:
+  - YELLOW on BLACK
+- bgColor: $foam
+  fgColor: $gold
+  names:
+  - YELLOW on BLUE
+- bgColor: $foam
+  fgColor: $gold
+  names:
+  - YELLOW on CYAN
+- bgColor: $base
+  fgColor: $gold
+  names:
+  - YELLOW on DEFAULT
+- bgColor: $pine
+  fgColor: $gold
+  names:
+  - YELLOW on GREEN
+- bgColor: $iris
+  fgColor: $gold
+  names:
+  - YELLOW on MAGENTA
+- bgColor: $love
+  fgColor: $gold
+  names:
+  - YELLOW on RED
+- bgColor: $base
+  fgColor: $gold
+  names:
+  - YELLOW on WHITE
+- bgColor: $gold
+  fgColor: $gold
+  names:
+  - YELLOW on YELLOW
