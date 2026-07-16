@@ -375,8 +375,6 @@ def main():
                     "bloom",
                     "build",
                     args.target,
-                    "-o",
-                    ".",
                     "-f",
                     "hex",
                     "--plain",

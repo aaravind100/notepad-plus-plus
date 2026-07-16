@@ -89,6 +89,6 @@
 This theme was built using [bloom](https://github.com/rose-pine/rose-pine-bloom):
 
 ```sh
-bloom build template.xml --output . --prefix $ --format hex --plain
+bloom build template.xml --output dist --prefix $ --format hex --plain
 ```
 <!-- BLOOM_BUILD_END -->
