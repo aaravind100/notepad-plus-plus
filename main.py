@@ -1,5 +1,5 @@
 # /// script
-# requires-python = ">=3.14"
+# requires-python = ">=3.15"
 # dependencies = [
 #     "pyyaml>=6.0.3",
 # ]
