@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<NotepadPlus modelDate="20260525" modelFileLastModifiedDate="20261002">
+<NotepadPlus modelDate="20261106" modelFileLastModifiedDate="20261111">
     <LexerStyles>
         <LexerType name="actionscript" desc="ActionScript" ext="">
             <WordsStyle name="DEFAULT" styleID="11" fgColor="e0def4" bgColor="191724" fontName="" fontStyle="0" fontSize=""></WordsStyle>
@@ -1945,6 +1945,27 @@
             <WordsStyle name="DOCUMENT" styleID="6" fgColor="31748f" bgColor="191724" fontName="" fontStyle="0" fontSize=""></WordsStyle>
             <WordsStyle name="TEXT" styleID="7" fgColor="f6c177" bgColor="191724" fontName="" fontStyle="1" fontSize=""></WordsStyle>
             <WordsStyle name="ERROR" styleID="8" fgColor="eb6f92" bgColor="191724" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+        </LexerType>
+        <LexerType name="fcST" desc="Structured Text" ext="">
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="e0def4" bgColor="191724" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="COMMENT" styleID="1" fgColor="6e6a86" bgColor="191724" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="6e6a86" bgColor="191724" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="KEYWORD" styleID="3" fgColor="31748f" bgColor="191724" fontName="" fontStyle="1" fontSize="" keywordClass="instre1"></WordsStyle>
+            <WordsStyle name="TYPE" styleID="4" fgColor="9ccfd8" bgColor="191724" fontName="" fontStyle="0" fontSize="" keywordClass="instre2"></WordsStyle>
+            <WordsStyle name="FUNCTION" styleID="5" fgColor="ebbcba" bgColor="191724" fontName="" fontStyle="0" fontSize="" keywordClass="type1"></WordsStyle>
+            <WordsStyle name="FUNCTION BLOCK" styleID="6" fgColor="ebbcba" bgColor="191724" fontName="" fontStyle="1" fontSize="" keywordClass="type2"></WordsStyle>
+            <WordsStyle name="NUMBER" styleID="7" fgColor="eb6f92" bgColor="191724" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="HEX NUMBER" styleID="8" fgColor="9ccfd8" bgColor="191724" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="PRAGMA" styleID="9" fgColor="eb6f92" bgColor="191724" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="908caa" bgColor="191724" fontName="" fontStyle="1" fontSize=""></WordsStyle>
+            <WordsStyle name="CHARACTER" styleID="11" fgColor="f6c177" bgColor="191724" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="STRING" styleID="12" fgColor="f6c177" bgColor="191724" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="DOUBLE-QUOTED STRING" styleID="13" fgColor="f6c177" bgColor="191724" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="STRING EOL" styleID="14" fgColor="6e6a86" bgColor="191724" fontName="" fontStyle="1" fontSize=""></WordsStyle>
+            <WordsStyle name="IDENTIFIER" styleID="15" fgColor="e0def4" bgColor="191724" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="DATE AND TIME" styleID="16" fgColor="eb6f92" bgColor="191724" fontName="" fontStyle="0" fontSize=""></WordsStyle>
+            <WordsStyle name="VARIABLE" styleID="17" fgColor="ebbcba" bgColor="191724" fontName="" fontStyle="0" fontSize="" keywordClass="type3"></WordsStyle>
+            <WordsStyle name="PRAGMA KEYWORD" styleID="18" fgColor="eb6f92" bgColor="191724" fontName="" fontStyle="0" fontSize="" keywordClass="type4"></WordsStyle>
         </LexerType>
         <LexerType name="searchResult" desc="Search result" ext="">
             <WordsStyle name="Search Header" styleID="1" fgColor="31748f" bgColor="191724" fontName="" fontStyle="1" fontSize=""></WordsStyle>
